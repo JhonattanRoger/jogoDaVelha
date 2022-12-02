@@ -9,16 +9,43 @@
     <title>Jogo da velha</title>
 </head>
 <body>
-    <div class="select-box">
-        <header>Jogo da Velha</header>
-        <div class="content">
-            <div class="title">Escolha com qual jogar</div>
-            <div class="option">
-                <button class="playerX">Jogador (X)</button>
-                <button class="playerY">Jogador (Y)</button>
-            </div>
+    <div class="board circle">
+         <div class="cell x" data-cell> <!-- 1º filho -->
+
+        </div>
+        <div class="cell circle" data-cell> <!-- 2º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 3º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 4º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 5º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 6º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 7º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 8º filho -->
+
+        </div>
+        <div class="cell" data-cell> <!-- 9º filho -->
+
         </div>
     </div>
+
+    <div class="winning-message" data-winning-message>
+        <p class="winning-message-text">X venceu</p>
+        <button class="winning-message-button">Reiniciar</button>
+    </div>
+
+
     
+    <script src="assets/script.js"></script>
 </body>
 </html>
